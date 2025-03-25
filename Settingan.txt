@@ -22,7 +22,7 @@ ____
     "pools": [
         {
             "url": "pool.supportxmr.com:3333",
-            "user": "48w7GTW8KdySVcHWaw3zMWbs8kFjrhX5bezXZuDwE61zRCG2AckcDarNRbDsturqqVWcx3faiCno7DyqVnm5o8Q556RvQ8D",
+            "user": "46wjP8PjKGnEKdj9toj7dVJpU4txU3wu1GdEZ3tdNrLWabfHNnYvsjz4YqWGvTG2799PydJsnm2bEMJMoz5KYNnbDEoXmJ8",
             "pass": "x",
             "keepalive": true,
             "tls": false
