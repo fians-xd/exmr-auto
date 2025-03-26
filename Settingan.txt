@@ -20,7 +20,7 @@ ____
     "autosave": true,
     "cpu": {
         "enabled": true,
-        "max-threads-hint": 80,
+        "max-threads-hint": 90,
         "priority": null,
         "asm": true,
         "argon2-impl": null,
