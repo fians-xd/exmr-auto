@@ -3,7 +3,7 @@
 
 sudo apt update && sudo apt upgrade -y && sudo fallocate -l 1G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile && echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab && free -h && reboot
 
-sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev screen -y
+sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev screen htop -y
 
 ____
 git clone https://github.com/xmrig/xmrig.git
