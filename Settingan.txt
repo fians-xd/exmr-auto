@@ -35,7 +35,7 @@ ____
     "pools": [
         {
             "url": "pool.supportxmr.com:3333",
-            "user": "46wjP8PjKGnEKdj9toj7dVJpU4txU3wu1GdEZ3tdNrLWabfHNnYvsjz4YqWGvTG2799PydJsnm2bEMJMoz5KYNnbDEoXmJ8",
+            "user": "",
             "pass": "x",
             "keepalive": true,
             "tls": false,
@@ -52,8 +52,8 @@ ____
         "cache_qos": false,
         "numa": true
     },
-    "donate-level": 0,         // Donasi dinonaktifkan (0%)
-    "donate-over-proxy": 0,    // Donasi via proxy juga dimatikan
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "log-file": null,
     "health-print-time": 60,
     "retries": 5,
