@@ -35,7 +35,7 @@ ____
     "pools": [
         {
             "url": "pool.supportxmr.com:3333",
-            "user": "",
+            "user": "46wjP8PjKGnEKdj9toj7dVJpU4txU3wu1GdEZ3tdNrLWabfHNnYvsjz4YqWGvTG2799PydJsnm2bEMJMoz5KYNnbDEoXmJ8",
             "pass": "x",
             "keepalive": true,
             "tls": false,
