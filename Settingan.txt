@@ -31,6 +31,35 @@ ____
 screen -r xmrig
 ____
 
+---------------------------------
+
+sudo nano /etc/systemd/system/xmrig.service
+
+[Unit]
+Description=XMRig Miner
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/xmrig/build
+ExecStart=/root/xmrig/build/./xmrig -c /root/xmrig/build/config.json > /dev/null 2>&1
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=xmrig
+
+[Install]
+WantedBy=multi-user.target
+
+____
+sudo systemctl daemon-reload
+sudo systemctl enable xmrig
+sudo systemctl start xmrig
+sudo systemctl status xmrig
+
+
 
 
 
