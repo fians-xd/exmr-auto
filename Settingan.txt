@@ -23,7 +23,7 @@ echo "{
             "tls": false
         }
     ]
-}"
+}" > config.json
 screen -S xmrig
 
 ____
