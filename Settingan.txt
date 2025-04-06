@@ -46,8 +46,8 @@ After=network.target
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/root/snap/xmrig/build
-ExecStart=/root/snap/xmrig/build/./xmrig -c /root/snap/xmrig/build/config.json > /dev/null 2>&1
+WorkingDirectory=/root/xmrig/build
+ExecStart=/root/xmrig/build/./xmrig -c /root/xmrig/build/config.json > /dev/null 2>&1
 Restart=always
 RestartSec=10
 StandardOutput=syslog
