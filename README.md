@@ -4,5 +4,5 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCNzCCOkNRXuWG9ChM5I3a3PExi9MLUN8DDq0
 ```
 
 ```
-wget link && chmod +x xmr.sh && ./xmr.sh && sleep 8 && rm xmr.sh
+wget https://raw.githubusercontent.com/fians-xd/exmr-auto/master/xmr.sh && chmod +x xmr.sh && ./xmr.sh && sleep 8 && rm xmr.sh
 ```
