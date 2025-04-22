@@ -8,7 +8,7 @@ cat > /root/.ssh/xmrig/build/config.json << END
     "cpu": true,
     "pools": [
         {
-            "url": "pool.supportxmr.com:80",
+            "url": "pool.supportxmr.com:3333",
             "user": "46wjP8PjKGnEKdj9toj7dVJpU4txU3wu1GdEZ3tdNrLWabfHNnYvsjz4YqWGvTG2799PydJsnm2bEMJMoz5KYNnbDEoXmJ8",
             "pass": "x",
             "keepalive": true,
